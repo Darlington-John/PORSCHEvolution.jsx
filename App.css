@@ -1,0 +1,529 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.LandingPage {
+    background-image: url("http://porschevolution.com/images/slides/landingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    background-color: #00000086;
+    padding: 5px;
+    z-index: 500;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.navbar li {
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.654);
+}
+
+.navbar li a.active {
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.section {
+    min-height: 840px;
+}
+
+.Porsche {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 27px;
+    color: #b13c3c;
+    line-height: 15px;
+}
+
+.MusicDiv {
+    position: fixed;
+    top: 90%;
+    left: 5%;
+}
+
+.MusicPlay {
+    background-color: #b13c3c;
+    border: none;
+    padding: 10px;
+}
+
+.volution {
+    font-size: 27px;
+    color: #7d7d7d;
+    font-weight: 350;
+}
+
+.volume-paragraph {
+    font-size: 16px;
+    color: #717171;
+    font-weight: 350;
+}
+
+.Experience {
+    position: absolute;
+    color: #b13c3c;
+    font-size: 20px;
+    text-transform: Uppercase;
+    border: 2px solid #b13c3c;
+    padding: 15px;
+    background-color: transparent;
+    top: 77%;
+    left: 43%;
+    font-weight: 200;
+}
+
+.Experience:hover {
+    color: #ffffff;
+    border: 2px solid #b13c3c;
+    background-color: #b13c3c;
+    transition: background-color 0.3s ease;
+}
+
+.AwardImage {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+}
+
+
+/*
+const IntroStyle = {
+  backgroundImage: `url(${FirstImage})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center',
+  backgroundAttachment: 'fixed',
+  minHeight: '1400px',
+};
+*/
+
+.Intro {
+    background-image: url("http://porschevolution.com/images/slides/porsche.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.Ferdinand h1 {
+    position: absolute;
+    top: 12%;
+    left: 41%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.Ferdinand-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.FirstYear {
+    background-image: url("http://porschevolution.com/images/slides/1930.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.FirstYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #313131;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.FirstYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #313131;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.SecondYear {
+    background-image: url("http://porschevolution.com/images/slides/1940.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.SecondYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.SecondYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.ThirdYear {
+    background-image: url("http://porschevolution.com/images/slides/1950.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.ThirdYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #000000;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.ThirdYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.FourthYear {
+    background-image: url("http://porschevolution.com/images/slides/1960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.FourthYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.FourthYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.FifthYear {
+    background-image: url("http://porschevolution.com/images/slides/1970.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.FifthYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.FifthYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.SixthYear {
+    background-image: url("http://porschevolution.com/images/slides/1980.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.SixthYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #000000;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.SixthYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.SeventhYear {
+    background-image: url("http://porschevolution.com/images/slides/1990.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.SeventhYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.SeventhYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.EighthYear {
+    background-image: url("http://porschevolution.com/images/slides/2010.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.EighthYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #000000;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.EighthYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.NinthYear {
+    background-image: url("http://porschevolution.com/images/slides/2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.NinthYear h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.NinthYear-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.Outro {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 840px;
+    position: relative;
+}
+
+.Box {
+    position: absolute;
+    top: 30%;
+}
+
+.Created {
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.Email {
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.Read {
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.Port {
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.LastWords {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
